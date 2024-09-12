@@ -1,0 +1,119 @@
+ project the rental vehicles
+
+print("WELCOME TO PK RENTAL SHOP")
+
+# print(("Enter your name:"))
+# Name = input("")
+# print("Enter the age:")
+# Age = int(input(""))
+# if Age < 18:
+#     print("Sorry under the 18year unable to rent the vehicle")
+#     print("Thank you  for visting our PK rental shop ")
+# else:
+#     print(input("Enter the DL.NO: "))
+#     print("""
+#     SELECT THE VEHICLE TYPE:
+#     1.TWO WHEELER
+#     2.FOUR WHEELER
+#     """)
+#
+#     Vehicle_type = int(input("Enter the vehicle type:"))
+#     if Vehicle_type == 1:
+#         print("""
+#             Two wheeler model
+#             1.KTM
+#             2.R15
+#             3.NS200
+#             4.ROYAL ENFIELD
+#             """)
+#         model = int(input("Enter the option:"))
+#         if (model == 1):
+#             print("KTM")
+#             print("enter how many hours do you required:")
+#             hours = int(input())
+#             print("vehicle cost")
+#             cost = (hours * 50)
+#             print(cost)
+#             total = cost*0.12+cost
+#             print(total)
+#         elif (model == 2):
+#             print("R15")
+#             print("enter how many hours do you required:")
+#             hours = int(input())
+#             print("vehicle cost")
+#             cost = (hours * 100)
+#             print(cost)
+#             total = cost * 0.12 + cost
+#             print(total)
+#         elif (model == 3):
+#             print("NS200")
+#             print("enter how many hours do you required:")
+#             hours = int(input())
+#             print("vehicle cost")
+#             cost = (hours * 150)
+#             print(cost)
+#             total = cost * 0.12 + cost
+#             print(total)
+#         elif (model == 4):
+#             print("ROYAL ENFIELD")
+#             print("enter how many hours do you required:")
+#             hours = int(input())
+#             print("vehicle cost")
+#             cost = (hours * 200)
+#             print(cost)
+#             total = cost * 0.12 + cost
+#             print(total)
+#         else:
+#             print("Enter vehical is invalid")
+#             print("Thanks for visting PK rental shop ")
+#
+#     #Vehicle_type = int(input("Enter the vechile type:"))
+#     #print(int(input("enter the vehicle option")))
+#     if Vehicle_type == 2:
+#         print("""
+#                       four wheeler model
+#                       1.KIA
+#                       2.HONDA
+#                       3.BMW
+#                       4.MG
+#                       """)
+#         model = int(input("Enter the option:"))
+#         if (model == 1):
+#             print("KIA")
+#             print("enter how many hours do you required:")
+#             hours = int(input())
+#             print("vehicle cost")
+#             cost = (hours * 500)
+#             print(cost)
+#             total = cost * 0.12 + cost
+#             print(total)
+#         elif (model == 2):
+#             print("HONDA")
+#             print("enter how many hours do you required:")
+#             hours = int(input())
+#             print("vehicle cost")
+#             cost = (hours * 1000)
+#             print(cost)
+#             total = cost * 0.12 + cost
+#             print(total)
+#         elif (model == 3):
+#             print("BMW")
+#             print("enter how many hours do you required:")
+#             hours = int(input())
+#             print("vehicle cost")
+#             cost = (hours * 1500)
+#             print(cost)
+#             total = cost * 0.12 + cost
+#             print(total)
+#         elif (model == 4):
+#             print("MG")
+#             print("enter how many hours do you required:")
+#             hours = int(input())
+#             print("vehicle cost")
+#             cost = (hours * 2000)
+#             print(cost)
+#             total = cost * 0.12 + cost
+#             print(total)
+#         else:
+#             print("Enter vehicle is invalid")
+#             print("Thanks for visting PK rental shop ")
