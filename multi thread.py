@@ -137,28 +137,61 @@ import time
 # while 1:
 #     pass
 import time
+#
+# def calc_square(numbers,delay):
+#     for n in numbers:
+#         print(f'\n{n} ^ 2 = {n*n}')
+#         time.sleep(delay)
+#
+# def calc_cube(numbers,delay):
+#     for n in numbers:
+#         print(f'\n{n} ^ 3 = {n*n*n}')
+#         time.sleep(delay)
+#
+# numbers=[2,3,4,5,8]
+#
+# square_thread = threading.Thread(target=calc_square,args=(numbers,1))
+# cube_thread = threading.Thread(target=calc_cube,args=(numbers,2))
+#
+# square_thread.start()
+#
+# cube_thread.start()
+#
+# square_thread.join()
+# cube_thread.join()
+# print("Thread Execution Done")
 
-def calc_square(numbers,delay):
-    for n in numbers:
-        print(f'\n{n} ^ 2 = {n*n}')
-        time.sleep(delay)
 
-def calc_cube(numbers,delay):
-    for n in numbers:
-        print(f'\n{n} ^ 3 = {n*n*n}')
-        time.sleep(delay)
-
-numbers=[2,3,4,5,8]
-
-square_thread = threading.Thread(target=calc_square,args=(numbers,1))
-cube_thread = threading.Thread(target=calc_cube,args=(numbers,2))
-
-square_thread.start()
-
-cube_thread.start()
-
-square_thread.join()
-cube_thread.join()
-print("Thread Execution Done")
+from queue import PriorityQueue
+import threading
+import time
+student=[]
+student.append([5,'nick'])
+student.append([6,'sachin'])
+student.append([1,'rohan'])
+student.append([3,'jack'])
+student.sort(reverse=True)
+while student:
+    t=student.pop()
+    print(t)
+    time.sleep(3)
+    print(student)
 
 
+#2.implemeting priority queue ultilizing heaqp Module
+import heapq
+s_roll=[]
+heapq.heappush(s_roll,(4,"tom"))
+heapq.heappush(s_roll,(1,"aruhi"))
+heapq.heappush(s_roll,(3,"dyson"))
+heapq.heappush(s_roll,(2,"bob1"))
+heapq.heappush(s_roll,(7,"bob2"))
+heapq.heappush(s_roll,(6,"bob3"))
+heapq.heappush(s_roll,(5,"bob4"))
+while s_roll:
+    deque_r=heapq.heappop(s_roll)
+    print(deque_r)
+    time.sleep(3)
+    print(s_roll)
+
+#3.implementing priority queue using queue
